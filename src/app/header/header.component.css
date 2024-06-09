@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+
+  background-color: #0d253f;
+  color: #fff;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+
+  width: 100%;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.tmdb-logo img {
+  height: 20px;
+  width: 154px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+.nav-icon {
+  width: 24px;
+  height: 24px;
+}
